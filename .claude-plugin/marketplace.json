@@ -9,5 +9,9 @@
       "source": "./",
       "description": "Debug the boundaries of a real Strands tool loop."
     }
-  ]
+  ],
+  "metadata": {
+    "description": "Debug the boundaries of a real Strands tool loop.",
+    "version": "0.1.0"
+  }
 }

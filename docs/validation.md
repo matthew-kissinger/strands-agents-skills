@@ -1,6 +1,6 @@
 # Validation
 
-Release candidate: 0.1.0. Checked 2026-09-06.
+Release: 0.1.0. Checked 2026-09-06.
 
 ## Executed checks
 
@@ -29,3 +29,10 @@ not represented as an executed benchmark.
 Installer path checks establish copied-file compatibility, not equal model behavior.
 The small repository validator complements the official skill/plugin validators;
 it is not a complete YAML parser or a general-purpose secret scanner.
+
+## Publication checks
+
+Both public repositories were installed with Skills CLI 1.5.23 into temporary
+project paths for Codex, Claude Code and Hermes. Native Claude marketplace
+validation passed without warnings. Windows and Linux CI passed before release;
+GitHub Actions records checks for each commit.
