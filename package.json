@@ -1,0 +1,21 @@
+{
+  "name": "strands-agents-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Debug the boundaries of a real Strands tool loop.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "check": "npm run validate && npm test",
+    "package": "python scripts/package.py"
+  },
+  "devDependencies": {
+    "@ai-sdk/provider": "3.0.14",
+    "@strands-agents/sdk": "1.16.0"
+  }
+}

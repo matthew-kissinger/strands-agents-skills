@@ -1,0 +1,13 @@
+{
+  "name": "strands-agents-skills",
+  "owner": {
+    "name": "Matthew Kissinger"
+  },
+  "plugins": [
+    {
+      "name": "strands-agents-skills",
+      "source": "./",
+      "description": "Debug the boundaries of a real Strands tool loop."
+    }
+  ]
+}

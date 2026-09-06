@@ -1,0 +1,12 @@
+{
+  "name": "strands-agents-skills",
+  "version": "0.1.0",
+  "description": "Debug the boundaries of a real Strands tool loop.",
+  "author": {
+    "name": "Matthew Kissinger",
+    "url": "https://github.com/matthew-kissinger"
+  },
+  "repository": "https://github.com/matthew-kissinger/strands-agents-skills",
+  "homepage": "https://github.com/matthew-kissinger/strands-agents-skills",
+  "license": "MIT"
+}
